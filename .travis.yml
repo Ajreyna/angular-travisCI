@@ -20,7 +20,7 @@ before_deploy:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: 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
+  github_token: $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
   local_dir: dist/angular-travisci
 
   on:
